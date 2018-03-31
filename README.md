@@ -10,3 +10,4 @@ Goto online if you want to test the progam.
 4. List rendering
 5. Interactivity
 6. Filter
+7. Components

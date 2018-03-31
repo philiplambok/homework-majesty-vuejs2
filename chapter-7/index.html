@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chapter 6</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://vuejs.org/js/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.5/lodash.min.js"></script>
+</head>
+<template id="anime-template">
+  <li class="list-group-item d-flex justify-content-between">
+    <span>
+      Anime "{{ anime.name }}". Watch {{ anime.watch }} times.
+      <button v-show="!isOverWatch()" class="btn btn-default btn-sm" @click="watch">
+        Watch
+      </button>
+    </span>
+    <span v-show="isWatched()" class="font-weight-bold">
+      is watched
+    </span>
+  </li>
+</template>
+<body>
+  <div id="app" class="container my-4 border p-4">
+    <ul class="list-group">
+      <anime v-for="anime in animes" :anime="anime"></anime>
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
