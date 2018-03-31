@@ -12,7 +12,8 @@
 <template id="anime-template">
   <li class="list-group-item d-flex justify-content-between">
     <span>
-      Anime "{{ anime.name }}". Watch {{ anime.watch }} times.
+      Anime "{{ anime.name }}".
+      Watch {{ anime.watch }} times.
       <button v-show="!isOverWatch()" class="btn btn-default btn-sm" @click="watch">
         Watch
       </button>
