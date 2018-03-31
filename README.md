@@ -9,3 +9,4 @@ Goto online if you want to test the progam.
 3. A Flavor of Directives
 4. List rendering
 5. Interactivity
+6. Filter
