@@ -13,3 +13,5 @@ Goto online if you want to test the progam.
 7. Components
 8. Costum Events
 9. Class and style bindings
+10. Preface. (*Just introduction to part 2 there is no homework*)
+11. Working with real data
