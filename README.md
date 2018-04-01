@@ -12,3 +12,4 @@ Goto online if you want to test the progam.
 6. Filter
 7. Components
 8. Costum Events
+9. Class and style bindings
